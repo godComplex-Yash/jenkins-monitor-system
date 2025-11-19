@@ -150,6 +150,7 @@ private:
         }
     }
 
+// Helper method -> Individual
     // Helper method to print an individual order
     void printOrder(const Order& order) const {
         std::cout << "Order ID: " << order.getId() 
